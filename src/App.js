@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NumberGuessingGame from './components/NumberGame/NumberGuessingGame';
 import VerbsGame from './components/VerbsGame';
+import GermanNumbersGame from './components/NumberGame/GermanNumbersGame';
 
 const App = () => {
   const [selectedGame, setSelectedGame] = useState(null);
@@ -16,11 +17,16 @@ const App = () => {
         <button onClick={() => handleGameSelection('NumberGuessingGame')} style={styles.button}>
           Number Guessing Game
         </button>
+        <button onClick={() => handleGameSelection('GermanNumbersGame')} style={styles.button}>
+          GermanNumbersGame 11 to 20
+        </button>
         <button onClick={() => handleGameSelection('VerbsGame')} style={styles.button}>
           VerbsGame
         </button>
+
       </div>
       {selectedGame === 'NumberGuessingGame' && <NumberGuessingGame />}
+      {selectedGame === 'GermanNumbersGame' && <GermanNumbersGame />}
       {selectedGame === 'VerbsGame' && <VerbsGame />}
     </div>
   );
