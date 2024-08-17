@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.verbsGame {
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+button {
+  padding: 12px 25px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  color: #fff;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+.game-board {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.verb-list,
+.translation-list {
+  width: 45%;
+  padding: 20px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.score-display {
+  margin-top: 20px;
+}
+
+.score-display h2 {
+  font-size: 2em;
+  color: #27ae60;
+  margin-bottom: 20px;
+}
+
+.score-display button {
+  background-color: #2ecc71;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #95a5a6;
+}
+
+footer a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #2980b9;
+}
