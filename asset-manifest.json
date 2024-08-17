@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/german-verbs-game/static/css/main.dcb3f5f6.css",
-    "main.js": "/german-verbs-game/static/js/main.9a81afc9.js",
+    "main.css": "/german-verbs-game/static/css/main.89bf71ba.css",
+    "main.js": "/german-verbs-game/static/js/main.262b1245.js",
     "static/js/453.592612b4.chunk.js": "/german-verbs-game/static/js/453.592612b4.chunk.js",
     "index.html": "/german-verbs-game/index.html",
-    "main.dcb3f5f6.css.map": "/german-verbs-game/static/css/main.dcb3f5f6.css.map",
-    "main.9a81afc9.js.map": "/german-verbs-game/static/js/main.9a81afc9.js.map",
+    "main.89bf71ba.css.map": "/german-verbs-game/static/css/main.89bf71ba.css.map",
+    "main.262b1245.js.map": "/german-verbs-game/static/js/main.262b1245.js.map",
     "453.592612b4.chunk.js.map": "/german-verbs-game/static/js/453.592612b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcb3f5f6.css",
-    "static/js/main.9a81afc9.js"
+    "static/css/main.89bf71ba.css",
+    "static/js/main.262b1245.js"
   ]
 }
